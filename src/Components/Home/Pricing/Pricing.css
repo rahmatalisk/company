@@ -1,0 +1,144 @@
+.pricing {
+    margin-top: 157px;
+    margin-bottom: 106px;
+}
+
+
+.pricing h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #262347;
+}
+
+.pricing>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: rgba(38, 35, 71, 0.25);
+    border-radius: 7px;
+    max-width: 426px;
+    color: #262347;
+}
+
+.package-btn-group>button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    background-color: white;
+    padding: 5px 12px;
+    margin: 10px;
+    color: #262347;
+
+}
+
+.package-btn-group {
+    background: #FFFFFF;
+    border: 1px solid #262347;
+    border-radius: 7px;
+
+    width: 221px;
+}
+
+.package-btn-group .active-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #262347;
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+
+.package-sign-up-button {
+    border: 1px solid #262347;
+    border-radius: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 19px;
+    padding: 13px 43px;
+    background-color: #262347;
+    margin: 5px 0;
+    margin: 46px 0;
+}
+
+.package-content {
+    margin-top: 22px;
+   
+}
+
+.package-box {
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #262347;
+    border-radius: 7px;
+    padding: 40px;
+    max-width: 334px;
+    /* height: 493px; */
+
+}
+
+.package-box h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    text-align: center;
+
+    color: #262347;
+
+}
+.package-box .d-flex{
+    font-weight: bold;
+}
+.package-box .d-flex span{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+margin-top: 10px;
+color: #262347;
+}
+
+.package-type {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #262347;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .pricing {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .banner-left p {
+        padding-right: 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}

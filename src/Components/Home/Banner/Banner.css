@@ -1,0 +1,64 @@
+.banner {
+    margin-top: 157px;
+    margin-bottom: 126px;
+}
+
+.banner h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #262347;
+    margin-bottom: 32px;
+}
+
+.banner-left p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #464646;
+    padding-right: 82px;
+}
+
+.banner-right img {
+    margin-top: 35px;
+}
+
+.banner button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #262347;
+    border: 1px solid #262347;
+    border-radius: 7px;
+    padding: 11px 56px;
+    margin-top: 27px;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .banner {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .banner-left p{
+        padding-right: 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .banner h2 {
+        font-size: 21px;
+        line-height: 23px;
+    }
+}

@@ -1,0 +1,50 @@
+.navbar-logo {
+    width: 175.18px;
+    height: 44px;
+    left: 44px;
+    top: 26px;
+
+    background: #FFFFFF;
+}
+
+.navbar .navbar-link ul li {
+    display: inline;
+}
+.navbar{
+    padding-top: 26px;
+}
+
+
+.navbar .navbar-link ul li a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 49px;
+    color: #262347;
+
+}
+
+.navbar .navbar-link ul li button {
+    border: 1px solid #262347;
+    border-radius: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 13px 32px;
+
+}
+
+.sign-up-button {
+    color: #262347;
+}
+
+.login-button{
+    background: #262347;
+    color: #FFFFFF;
+    margin-left: 13px;
+}
