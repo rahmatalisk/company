@@ -4,21 +4,26 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Global/Navbar/Navbar';
 import Banner from './Components/Home/Banner/Banner';
 import Service from './Components/Home/Service/Service';
-import Pricing from './Components/Home/Pricing/Pricing';
+
 import 'swiper/css';
 import Footer from './Components/Global/Footer/Footer';
-
-
+import Profile from './Components/Profile/Profile';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <div className="">
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <Service></Service>
-      <Pricing></Pricing>
-      <Footer></Footer>
-    </div>
+    <BrowserRouter>
+    <Navbar></Navbar>
+    <Routes>
+      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/home' element={<Home></Home>}></Route>
+      <Route path='/profile' element={<Profile></Profile>}></Route>
+    </Routes>
+    <Footer></Footer>
+    
+    </BrowserRouter>
+   
   );
 }
 

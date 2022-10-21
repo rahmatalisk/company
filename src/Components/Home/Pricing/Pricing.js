@@ -3,6 +3,7 @@ import { Tab, Tabs } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from "swiper/react";
 import './Pricing.css'
 import { EffectCards } from "swiper";
+import icon from '../../../images/image 3.png'
 
 const Pricing = () => {
     const [key, setKey] = useState('monthly');
@@ -13,9 +14,12 @@ const Pricing = () => {
                 <p className="text-center mx-auto">Annually you have 8% off which is 1 month for free 😍</p>
 
                 <div>
-                    <div className="package-btn-group mx-auto">
-                        <button className={`${key === "monthly" ? "active-btn" : ""}`} onClick={() => setKey("monthly")}>Monthly</button>
-                        <button className={`${key === "annually" ? "active-btn" : ""}`} onClick={() => setKey("annually")}>Annually</button>
+                    <div className='d-flex  align-items-center justify-content-center'>
+                        <div className="package-btn-group ">
+                            <button className={`${key === "monthly" ? "active-btn" : ""}`} onClick={() => setKey("monthly")}>Monthly</button>
+                            <button className={`${key === "annually" ? "active-btn" : ""}`} onClick={() => setKey("annually")}>Annually</button>
+                        </div>
+                        <img src={icon} alt="" />
                     </div>
 
                     <div className='d-none d-md-block'>

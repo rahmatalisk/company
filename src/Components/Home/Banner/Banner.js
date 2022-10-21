@@ -6,7 +6,8 @@ const Banner = () => {
     return (
         <div className='container'>
             <div className=" banner">
-                <h2>Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit, sed do</h2>
+                <h2 className='d-none d-md-block'>Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit, sed do</h2>
+                <h2 className='d-md-none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h2>
                 <div className='row '>
                     <div className="banner-left col-12 col-md-6 col-lg-5">
 

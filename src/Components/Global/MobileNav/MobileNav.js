@@ -8,7 +8,7 @@ const MobileNav = () => {
     return (
         <div>
             <div className="container-fluid mobile-navbar fixed-top bg-white">
-                <div className="navbar-logo"><img src={logo} alt="" /></div>
+                <div className="navbar-logo"><a href="/"><img src={logo} alt="" /></a></div>
                 <div>
                     <Dropdown align="end">
                         <Dropdown.Toggle className='bg-light border-0'>
@@ -23,7 +23,7 @@ const MobileNav = () => {
                                         <li><a href="#academy">Academy</a></li>
                                         <li><button className='sign-up-button'>Sign Up</button></li>
 
-                                        <li><button className='login-button'>Login</button></li>
+                                        <li><a className='m-0' href="/profile"><button className='login-button'>Login</button></a></li>
                                     </ul>
                                 </div>
                             </Dropdown.Item>

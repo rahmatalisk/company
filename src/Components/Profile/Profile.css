@@ -1,0 +1,33 @@
+.profile {
+    margin: 127px 0 87px 0;
+}
+
+.profile .profile-btn-group button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    color: #000000;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile .profile-btn-group {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+}
+
+.profile .profile-btn-group button img {
+    width: 22px;
+    height: 23px;
+    margin-right: 9px;
+}
+
+.profile .profile-btn-group .active {
+    border-bottom: 3px solid #000000;
+    padding-bottom: 20px;
+}

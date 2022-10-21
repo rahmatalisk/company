@@ -48,7 +48,7 @@
 @media only screen and (max-width: 767px) {
 
     .banner {
-        margin-top: 40px;
+        margin-top: 80px !important;
         margin-bottom: 40px;
     }
     .banner-left p{
@@ -58,7 +58,7 @@
     }
 
     .banner h2 {
-        font-size: 21px;
-        line-height: 23px;
+        font-size: 28px;
+        line-height: 33px;
     }
 }

@@ -12,7 +12,8 @@ const Navbar = () => {
             <div className='navbar d-none d-md-block fixed-top bg-white'>
                 <div className='container'>
                     <div className="navbar-logo">
-                        <img className='navbar-logo' src={logo} alt="" />
+                        <a href="/"><img className='navbar-logo' src={logo} alt="" /></a>
+                        
                     </div>
                     <div className="navbar-link">
                         <ul>
@@ -20,7 +21,7 @@ const Navbar = () => {
                             <li><a href="#academy">Academy</a></li>
                             <li><button className='sign-up-button'>Sign Up</button></li>
 
-                            <li><button className='login-button'>Login</button></li>
+                            <li><a className='m-0' href="/profile"><button className='login-button'>Login</button></a></li>
                         </ul>
                     </div>
                 </div>
